@@ -155,6 +155,7 @@
       justify-content: space-between;
       padding: $mob16px;
       transform: translateY(-100%);
+      z-index: 2;
     }
 
     &__dots {
@@ -374,6 +375,7 @@
     flex-direction: column-reverse;
     padding: $mob28px $mob12px;
     gap: $mob24px;
+    border-radius: $mob32px;
 
     &__text-block {
       grid-row: 2;

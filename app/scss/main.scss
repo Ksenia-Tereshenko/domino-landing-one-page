@@ -845,5 +845,24 @@ footer {
   }
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $colorPurple $colorBg;
+}
+
+*::-webkit-scrollbar {
+  width: $s4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: $colorBg;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $colorPurple;
+  border-radius: $s4px;
+  transition: linear .3s;
+}
+
 @import "home";
 @import "main_mobile";

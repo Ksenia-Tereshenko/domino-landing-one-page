@@ -118,6 +118,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: $s20px;
+    position: relative;
+    z-index: 2;
   }
 
   &__title {
@@ -219,7 +221,7 @@
   }
 
   &__fifth {
-    padding-bottom: 0;
+    //padding-bottom: 0;
   }
 }
 
@@ -227,6 +229,7 @@
 
   &__slider {
     position: relative;
+    z-index: 2;
 
     .home-section__two-column {
       align-items: center;
@@ -359,6 +362,7 @@
     width: calc(50% - 0.69vw);
     transform: translateY(-100%);
     padding: 0 $s40px $s40px;
+    z-index: 2;
   }
 
   &__dots {
